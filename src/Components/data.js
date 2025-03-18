@@ -153,7 +153,7 @@
     },
     {
         id:6,
-        img:"https://freshcart.codescandy.com/assets/images/products/product-img-1.jpg",
+        img:"https://freshcart.codescandy.com/assets/images/products/product-img-6.jpg",
         name:"snack & Munchies",
         company:"Haldiram's Sev Bhujia",
         oldprice:"$24",
@@ -163,7 +163,7 @@
     },
     {
         id:7,
-        img:"https://freshcart.codescandy.com/assets/images/products/product-img-1.jpg",
+        img:"https://freshcart.codescandy.com/assets/images/products/product-img-7.jpg",
         name:"snack & Munchies",
         company:"Haldiram's Sev Bhujia",
         oldprice:"$24",
@@ -173,7 +173,7 @@
     },
     {
         id:8,
-        img:"https://freshcart.codescandy.com/assets/images/products/product-img-1.jpg",
+        img:"https://freshcart.codescandy.com/assets/images/products/product-img-8.jpg",
         name:"snack & Munchies",
         company:"Haldiram's Sev Bhujia",
         oldprice:"$24",
@@ -183,7 +183,7 @@
     },
     {
         id:9,
-        img:"https://freshcart.codescandy.com/assets/images/products/product-img-1.jpg",
+        img:"https://freshcart.codescandy.com/assets/images/products/product-img-9.jpg",
         name:"snack & Munchies",
         company:"Haldiram's Sev Bhujia",
         oldprice:"$24",
@@ -193,7 +193,7 @@
     },
     {
         id:10,
-        img:"https://freshcart.codescandy.com/assets/images/products/product-img-1.jpg",
+        img:"https://freshcart.codescandy.com/assets/images/products/product-img-10.jpg",
         name:"snack & Munchies",
         company:"Haldiram's Sev Bhujia",
         oldprice:"$24",
