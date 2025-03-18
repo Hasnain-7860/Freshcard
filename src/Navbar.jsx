@@ -41,7 +41,7 @@ const Navbar = () => {
        </div>
     </div>
     <div className='container'>
-        <div className='flex items-center gap-5 text-[15px] mt-5'>
+        <div className='hidden  lg:flex items-center gap-5 text-[15px] mt-5'>
             <button className='flex justify-center items-center shadow-lg bg-green-500 text-white p-3 gap-3 rounded-lg  px-8 '><IoLogoXbox /> <h1>All Departments</h1></button>
             <button className='flex justify-center items-center gap-2'>Home <IoIosArrowDown /></button>
             <button className='flex justify-center items-center gap-2'>Shop <IoIosArrowDown /></button>
