@@ -18,16 +18,16 @@ const Home = () => {
             if(tx>-100){
                 tx -=100
             }
-            slider.current.style.transform =`translatex(${tx}%)`;
+            slider.current.style.transform =`translateX(${tx}%)`;
         }
         
    
 
   return (
-    <div className='container overflow-x-hidden '>
-        <div id='over' ref={slider} className=' flex '>
-            <img src={img1} alt="" />
-            <img class src={img2} alt="" />
+    <div className='container overflow-hidden '>
+        <div id='over' ref={slider} className=' flex overflow-x-hidden rounded-lg mt-2 '>
+            <img  src={img1} alt="" />
+            <img  class src={img2} alt="" />
         </div>
         <div className='flex justify-center items-center gap-1 '>
         <GoDotFill onClick={slideBackward} className='text-center' />
