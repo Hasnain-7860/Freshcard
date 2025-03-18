@@ -1,3 +1,7 @@
+import sells from '../assets/sells.png'
+
+ 
+ 
  export const FeaturedData=[
     {
         id:1,
@@ -202,4 +206,65 @@
 
     }
     
+   ]
+   export const DailyData=[
+    {
+        id:1,
+        img:sells,
+        // name:""
+    },
+    {
+        id:2,
+        name:"Tea, Coffee & Drinks",
+        company:"Roast Ground Coffee",
+        price:"$13",
+       oldPrice:"$18",
+        rating:"4.5",
+        cart:"Add to cart",
+        year:"1300",
+        days:"Days",
+        two:"23",
+        hour:"Hours",
+        Three:"36",
+        min:"Mins",
+        four:"41",
+        sec:"Sec",
+        img:"https://freshcart.codescandy.com/assets/images/products/product-img-11.jpg"
+    },
+    {
+        id:3,
+        img:"https://freshcart.codescandy.com/assets/images/products/product-img-12.jpg",
+        name:"Tea, Coffee & Drinks",
+        company:"Roast Ground Coffee",
+        price:"$13",
+        rating:"4.5",
+        cart:"Add to cart",
+        oldPrice:"$18",
+        year:"1300",
+        days:"Days",
+        two:"23",
+        hour:"Hours",
+        Three:"36",
+        min:"Mins",
+        four:"41",
+        sec:"Sec"
+    },
+    {
+        id:4,
+        img:"https://freshcart.codescandy.com/assets/images/products/product-img-13.jpg",
+        name:"Tea, Coffee & Drinks",
+        company:"Roast Ground Coffee",
+        price:"$13",
+        oldPrice:"$18",
+        rating:"4.5",
+        cart:"Add to cart",
+        year:"1300",
+        days:"Days",
+        two:"23",
+        hour:"Hours",
+        Three:"36",
+        min:"Mins",
+        four:"41",
+        sec:"Sec"
+    }
    ]

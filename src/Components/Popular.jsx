@@ -5,7 +5,7 @@ import { data } from 'autoprefixer'
 const Popular = () => {
   return (
     <div className=' container'>
-        <div>
+        <div className='py-10 text-[30px] font-semibold'>
             <h1>Popular Products</h1>
         </div>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 '>

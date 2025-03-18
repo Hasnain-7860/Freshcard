@@ -21,11 +21,11 @@ const Navbar = () => {
         <div className='flex gap-8  '>
         <img src="https://freshcart-next-js.vercel.app/images/logo/freshcart-logo.svg " alt="" />
        <div className='flex'>  
-        <div className=' hidden lg:w-[500px] h-[50px] lg:flex items-center  shadow-2xl justify-between rounded-md border-solid border-2 border-black '  >
+        <div className=' hidden lg:w-[500px] h-[50px] lg:flex items-center  shadow-2xl justify-between rounded-md '  >
             <input className='w-[450px] outline-none ml-[10px]' type="Search" placeholder='Search for products' />
             <CiSearch  className='text-[23px] flex  '/>
         </div>
-        <div className='  hidden  lg:flex items-center gap-3 p-3  ml-[20px] shadow-xl border-solid border-2 border-black text-gray-400 '>
+        <div className='  hidden  lg:flex items-center gap-3 p-3  ml-[20px] shadow-xl  text-gray-400 '>
         <LuMapPin />
         <h1>Location</h1>
         </div>
