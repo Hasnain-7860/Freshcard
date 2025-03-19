@@ -32,7 +32,7 @@ const Featured = () => {
             <h1 className='text-[30px] font-semibold'>Featured Categories</h1>
             <div className='flex justify-center items-center gap-3'>
             <button onClick={slideBackward} className='p-3 rounded-[50%] bg-gray-400 '><MdKeyboardArrowLeft /></button>
-            <button onClick={slideForward} className='p-3 rounded-[50%] bg-gray-400'><MdKeyboardArrowRight /></button>
+            <button onClick={slideForward} className='p-3 rounded-[50%] bg-gray-400'><MdKeyboardArrowRight  /></button>
             </div>
         </div>
         <div className='overflow-hidden mx-[20%] '>
