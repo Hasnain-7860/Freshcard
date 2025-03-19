@@ -25,16 +25,16 @@ const Navbar = () => {
             <input className='w-[450px] outline-none ml-[10px]' type="Search" placeholder='Search for products' />
             <CiSearch  className='text-[23px] flex  '/>
         </div>
-        <div className='  hidden  lg:flex items-center gap-3 p-3  ml-[20px] shadow-xl  text-gray-400 '>
+        <div className='  hidden  lg:flex items-center gap-3 p-3  ml-[20px] shadow-xl  text-gray-400 hover:bg-gray-400 hover:text-black rounded-md '>
         <LuMapPin />
         <h1>Location</h1>
         </div>
        </div>
        </div>
-       <div className='flex text-green-500 gap-5'> 
-       <CiHeart />
+       <div className='flex text-green-500 gap-5 text-[25px]'> 
+       <div className='relative' ><CiHeart /> <h1 className=' text-white bg-green-600 rounded-[50%] p-1 text-[8px] top-[-4px] right-[-4px]   absolute'>4</h1></div>
        <RiContactsLine />
-       <BsCart3 />
+       <div className='relative'><BsCart3 /> <h1 className='text-white bg-green-600 rounded-[50%] p-1 text-[8px] top-[-4px] right-[-4px] absolute'>5</h1> </div>
        <RxHamburgerMenu  className='text-green  lg:hidden'/>
 
 

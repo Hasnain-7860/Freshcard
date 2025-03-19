@@ -35,14 +35,16 @@ const Featured = () => {
             <button onClick={slideForward} className='p-3 rounded-[50%] bg-gray-400'><MdKeyboardArrowRight /></button>
             </div>
         </div>
-        <div className='overflow-hidden mx-[20%]'>
+        <div className='overflow-hidden mx-[20%] '>
         <div ref={slider} id='fea' className='flex  gap-5   '>
             {FeaturedData.map((data)=>(
             
                 <div key={data.id}>
-                    <div className='flex flex-col  p-8 rounded-lg shadow-xl'>
+                    <div className='flex flex-col  p-8 rounded-lg shadow-xl'> <a href="">
                     <img src={data.img} alt="" />
-                    <h1>{data.name}</h1></div>
+                    <h1>{data.name}</h1>
+                    </a>
+                    </div>
                 </div>
             ))}
         </div>
