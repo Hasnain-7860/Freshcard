@@ -6,6 +6,7 @@ import { data } from 'autoprefixer';
 import './Featured.css'
 import frimg from '../assets/frimg.png'
 import vegimg from '../assets/vegimg.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -40,11 +41,12 @@ const Featured = () => {
             {FeaturedData.map((data)=>(
             
                 <div key={data.id}>
-                    <div className='flex flex-col  p-8 rounded-lg shadow-xl'> <a href="">
+                    <Link to="/Popular"><div className='flex flex-col  p-8 rounded-lg shadow-xl'> <a href="">
                     <img src={data.img} alt="" />
                     <h1>{data.name}</h1>
                     </a>
                     </div>
+                    </Link>
                 </div>
             ))}
         </div>

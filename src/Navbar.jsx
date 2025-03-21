@@ -7,6 +7,7 @@ import { BsCart3 } from "react-icons/bs";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoLogoXbox } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 
 
@@ -43,14 +44,24 @@ const Navbar = () => {
     <div className='container'>
         <div className='hidden  lg:flex items-center gap-5 text-[15px] mt-5'>
             <button className='flex justify-center items-center shadow-lg bg-green-500 text-white p-3 gap-3 rounded-lg  px-8 '><IoLogoXbox /> <h1>All Departments</h1></button>
-            <button className='flex justify-center items-center gap-2'>Home <IoIosArrowDown /></button>
-            <button className='flex justify-center items-center gap-2'>Shop <IoIosArrowDown /></button>
-            <button className='flex justify-center items-center gap-2'>Stores <IoIosArrowDown /></button>
-            <button className='flex justify-center items-center gap-2'>Mega menu <IoIosArrowDown /></button>
-            <button className='flex justify-center items-center gap-2'>Pages <IoIosArrowDown /></button>
-            <button className='flex justify-center items-center gap-2'>Account <IoIosArrowDown /></button>
-            <button className='flex justify-center items-center gap-2'>Dashboard <IoIosArrowDown /></button>
-            <button className='flex justify-center items-center gap-2'>Docs <IoIosArrowDown /></button>
+            <button className='flex justify-center items-center gap-2'> <Link to="/Home">Home</Link> <IoIosArrowDown />
+            {/* <div drop>
+              <ul>
+                <li><a href="">Home Defoult</a></li>
+                <li><a href="">Home Defoult</a></li>
+                <li><a href="">Home Defoult</a></li>
+                <li><a href="">Home Defoult</a></li>
+                <li><a href="">Home Defoult</a></li>
+              </ul>
+            </div> */}
+            </button>
+            <button className='flex justify-center items-center gap-2'><Link to="/Shop">Shop</Link> <IoIosArrowDown /></button>
+            <button className='flex justify-center items-center gap-2'> <Link to="/Stores">Stores</Link> <IoIosArrowDown /></button>
+            <button className='flex justify-center items-center gap-2'><Link to="/Menu"> Mega menu</Link> <IoIosArrowDown /></button>
+            <button className='flex justify-center items-center gap-2'><Link to="/Pages">Pages </Link><IoIosArrowDown /></button>
+            <button className='flex justify-center items-center gap-2'><Link to="/Account">Account</Link>  <IoIosArrowDown /></button>
+            <button className='flex justify-center items-center gap-2'><Link to="/Deshboard">Dashboard</Link> <IoIosArrowDown /></button>
+            <button className='flex justify-center items-center gap-2'> <Link to="/Doc">Docs</Link> <IoIosArrowDown /></button>
         </div>
     </div>
     <hr className='mt-4' />
@@ -59,3 +70,6 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+

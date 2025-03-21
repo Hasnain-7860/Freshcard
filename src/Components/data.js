@@ -3,6 +3,8 @@ import { MdAccessTime } from "react-icons/md";
 import { GoGift } from "react-icons/go";
 import { FiSquare } from "react-icons/fi";
 import { LuCircleFadingArrowUp } from "react-icons/lu";
+import { Link } from 'react-router-dom';
+import Time from './Time';
 
  
  export const FeaturedData=[
@@ -115,6 +117,7 @@ import { LuCircleFadingArrowUp } from "react-icons/lu";
         company:"Haldiram's Sev Bhujia",
         oldprice:"$24",
         price:"$18",
+       
 
 
     },
@@ -345,4 +348,163 @@ import { LuCircleFadingArrowUp } from "react-icons/lu";
         text:"Not satisfied with a product? Return it at the doorstep & get a refund within hours. No questions asked policy .",
         icon:LuCircleFadingArrowUp
     }
+   ]
+   export const FooterData=[
+    {
+        id:1,
+        name:"Categories",
+        text1:"Vegetables & Fruits ",
+        text2:"Breakfast & instant food",
+        text3:"Bakery & BiscuitsAtta", 
+        text4:"rice & dal",
+        text5:"Sauces & spreads",
+        text6:"Organic & gourmet",
+        text7:"Baby care",
+        text8:"Cleaning essentials",
+        text9:"Personal care"
+    },
+    {
+        id:2,
+        text1:"Dairy, bread & eggs ",
+        text2:"Cold drinks & juices",
+        text3:"Bakery & BiscuitsAtta", 
+        text4:"Tea, coffee & drinks",
+        text5:"Masala, oil & more",
+        text6:"Chicken, meat & fish",
+        text7:"Paan corner",
+        text8:"Pharma & wellness",
+        text9:"Home & office",
+        text10:"Pet care"
+    },
+    {
+        id:3,
+        name:"Get to know us",
+        text1:"Company" ,
+        text2:"About",
+        text3:"Blog", 
+        text4:"Help Center",
+        text5:"Our Value",
+    },
+    {
+        id:4,
+        name:"For Consumers",
+        text1:"Payments ",
+        text2:"Shipping",
+        text3:"Product Returns", 
+        text4:"FAQ",
+        text5:"Shop Checkout",
+    },
+    {
+        id:5,
+        name:"Become a Shopper",
+        text1:"Shopper Opportunities ",
+        text2:"Become a Shopper",
+        text3:"Earnings", 
+        text4:"Ideas & Guides",
+        text5:"New Retailers",
+    },
+    {
+        id:6,
+        name:"Freshcart programs",
+        text1:"Freshcart programs ",
+        text2:"Gift Cards",
+        text3:"Promos & Coupons", 
+        text4:"Freshcart Ads",
+        text5:"Careers",
+    },
+   
+   ]
+   export const PagesData=[
+    {
+        id:1,
+        name:"Recipes",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-1.jpg",
+        heading:"Harissa Chickpeas with Whipped Feta",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+         date:"22 April 2023",
+        min:"Read Time: 12 min"
+
+    },
+    {
+        id:2,
+        name:"Retailer",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-2.jpg",
+        heading:"Almond Butter Chocolate Chip Zucchini Bars",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+         date:"20 April 2023",
+        min:"Read Time: 8 min"
+
+    },
+    {
+        id:3,
+        name:"Recipes",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-3.jpg",
+        heading:"Spicy Shrimp Tacos Garlic Cilantro Lime Slaw",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+        date:"18 April 2023",
+        min:"Read Time: 5 min"
+
+    },
+    {
+        id:4,
+        name:"Recipes",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-4.jpg",
+        heading:"Spicy Shrimp Tacos Garlic Cilantro Lime Slaw",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+        date:"18 April 2023",
+        min:"Read Time: 5 min"
+
+    },
+    {
+        id:5,
+        name:"Recipes",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-5.jpg",
+        heading:"Spicy Shrimp Tacos Garlic Cilantro Lime Slaw",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+        date:"18 April 2023",
+        min:"Read Time: 5 min"
+
+    },
+    {
+        id:6,
+        name:"Recipes",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-6.jpg",
+        heading:"Spicy Shrimp Tacos Garlic Cilantro Lime Slaw",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+        date:"18 April 2023",
+        min:"Read Time: 5 min"
+
+    },
+    {
+        id:7,
+        name:"Recipes",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-7.jpg",
+        heading:"Spicy Shrimp Tacos Garlic Cilantro Lime Slaw",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+        date:"18 April 2023",
+        min:"Read Time: 5 min"
+
+    },
+    {
+        id:8,
+        name:"Recipes",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-8.jpg",
+        heading:"Spicy Shrimp Tacos Garlic Cilantro Lime Slaw",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+        date:"18 April 2023",
+        min:"Read Time: 5 min"
+
+    },
+    {
+        id:9,
+        name:"Recipes",
+        img:"https://freshcart-next-js.vercel.app/images/blog/blog-img-9.jpg",
+        heading:"Spicy Shrimp Tacos Garlic Cilantro Lime Slaw",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...",
+        date:"18 April 2023",
+        min:"Read Time: 5 min"
+
+    },
+
+
    ]
