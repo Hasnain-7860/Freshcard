@@ -10,6 +10,7 @@ import Frontpage from './Components/Pages/Frontpage'
 import Footer from './Components/Footer'
 import Deshboard from './Components/Deshboard'
 import Pages from './Components/Pages'
+import Docs from './Components/Docs'
 
 const App = () => {
   return (
@@ -20,8 +21,9 @@ const App = () => {
       <Route path='/Home' element={<Frontpage/>}/>
       <Route path='/Featured' element={<Featured/>}/>
       <Route path='/Popular' element={<Popular/>}/>
-      <Route path='/Deshboard' element={<Deshboard/>} />
+      <Route path='/Account' element={<Deshboard/>} />
       <Route path='/Pages' element={<Pages/>}  />
+      <Route path='/Doc' element={<Docs/>} />
       
       </Routes>
       <Footer/>

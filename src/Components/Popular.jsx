@@ -9,7 +9,7 @@ const Popular = () => {
         <div className='py-10 text-[30px] font-semibold'>
             <h1>Popular Products</h1>
         </div>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 '>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6'>
         {PopularData.map((data)=>(
             <div key={data.id} className=''>
                 <div className=' rounded-md shadow-lg hover:border-2 border-green-300'><a href="">

@@ -26,7 +26,7 @@ const Pages = () => {
         <div>
             <div className='grid grid-cols-1 lg:grid-cols-3   mt-4 shadow-lg  gap-8 mb-10'>
                {PagesData.map((data)=>(
-                <div className='p-3' key={data.id}>
+               <div className='p-3' key={data.id}>
                     <div>
                     <div className='hover:scale-x-105'>
                         <img  src={data.img} alt="" />
@@ -48,9 +48,11 @@ const Pages = () => {
             </div>
                         
                 </div>
+               
                ))}
-              
+               
             </div>
+           
         </div>
 
     </div>
