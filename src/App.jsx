@@ -11,6 +11,7 @@ import Footer from './Components/Footer'
 import Deshboard from './Components/Deshboard'
 import Pages from './Components/Pages'
 import Docs from './Components/Docs'
+import Stores from './Components/Stores'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Route path='/Account' element={<Deshboard/>} />
       <Route path='/Pages' element={<Pages/>}  />
       <Route path='/Doc' element={<Docs/>} />
+      <Route path='/Stores' element={<Stores/>}/>
       
       </Routes>
       <Footer/>
