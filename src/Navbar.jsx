@@ -33,7 +33,7 @@ const Navbar = () => {
        </div>
        </div>
        <div className='flex text-green-500 gap-5 text-[25px]'> 
-       <div className='relative' ><CiHeart /> <h1 className=' text-white bg-green-600 rounded-[50%] p-1 text-[8px] top-[-4px] right-[-4px]   absolute'>4</h1></div>
+       <div className='relative' ><CiHeart /> <h1 className=' text-white bg-green-600 rounded-[50%] p-1 text-[8px] top-[-4px] right-[-4px]   absolute'>7</h1></div>
        <RiContactsLine />
        <div className='relative'><BsCart3 /> <h1 className='text-white bg-green-600 rounded-[50%] p-1 text-[8px] top-[-4px] right-[-4px] absolute'>5</h1> </div>
        <RxHamburgerMenu  className='text-green  lg:hidden'/>
